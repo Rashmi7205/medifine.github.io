@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to contact</title>
+      <!-- Font awsome CDN link -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+ 
+      <!-- CSS file links -->
+      <link rel="stylesheet" href="style1.css"/>
+      <link rel="stylesheet" href="style3.css"/>
+</head>
+<body>  
+           <!-- Header section  -->
+    <header class="header">
+        <nav class="nav--bar">
+            <div class="logo">
+                <img src="../assets/project-2/logo.png" alt=""/>
+            </div>
+            <div class="menu--items">
+                <ul>
+                  <a href="index.html"><li>Home</li></a> 
+                  <a href="about.html"><li>about us</li></a> 
+                  <a href="contact.html"><li>contact us</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Loging form  -->
+    <form action="" method="post" class="login-form">
+        <h1 id="form-title">contact form</h1>
+        <h3>name</h3>
+        <input type="text" name="username" placeholder="Enter your name" id="user-name"/>
+        <h3>Email</h3>
+        <input type="email" name="email" placeholder="Enter your email" id="user-email"/>   
+        <h3>Message</h3>
+        <textarea name="message"  cols="20" rows="3" id="user-msg" />
+
+        </textarea>
+        <input type="submit" value="submit" id="submit-btn"/>     
+    </form>
+</body>
+</html>
