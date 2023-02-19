@@ -1,6 +1,4 @@
 /* For large devices */
-@media screen and (max-width:1440px) 
-{
    .login-form{
     width: 150px;
     height: 190px;
@@ -52,4 +50,3 @@
     font-size: .55em;
     text-transform: capitalize;
    }
-}

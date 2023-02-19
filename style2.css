@@ -1,6 +1,4 @@
 /* For large devices */
-@media screen and (max-width:1440px)
-{
     .about-main-section
     {
         width:50%;
@@ -52,4 +50,3 @@
         color: #16dd74db;
         
     }
-}
